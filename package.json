@@ -4,7 +4,7 @@
   "description": "API RESTful desenvolvida com Elysia e TypeScript",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "bun run src/index.ts",
+    "dev": "bun run --hot src/index.ts",
     "dev:node": "tsx src/index.ts",
     "build": "tsc",
     "start": "bun run src/index.ts",
