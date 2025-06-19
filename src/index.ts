@@ -13,6 +13,10 @@ const app = new Elysia()
     }
   }))
   .use(routes.demo)
+  .use(routes.user)
+  .use(routes.school)
+  .use(routes.student)
+  .use(routes.report)
   .listen(3000)
 
 console.log(
